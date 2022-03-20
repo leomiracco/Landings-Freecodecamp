@@ -40,6 +40,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
+  line-height: 0;
 }
 @media only screen and (max-width: 3072px) and (orientation: landscape) {
   .main-content {
