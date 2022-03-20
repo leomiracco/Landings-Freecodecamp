@@ -35,7 +35,7 @@ body {
       var(--color-strong-violet),
       var(--color-soft-violet)
     ),
-    url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+    url("./assets/img/survey-form-background.jpeg");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
