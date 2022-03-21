@@ -19,6 +19,13 @@ html {
 }
 
 body {
+  color: white;
+  font-size: 1.7rem;
+  font-family: var(--fuente-poppins);
+  line-height: 1.5;
+}
+
+.main-content {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -32,26 +39,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  color: white;
-  font-size: 1.7rem;
-  font-family: var(--fuente-poppins);
-  line-height: 1.5;
-}
-
-.main-content {
-  /* width: 100%;
-  display: flex;
-  flex-direction: column;
-  background-image: linear-gradient(
-      90deg,
-      var(--color-strong-violet),
-      var(--color-soft-violet)
-    ),
-    url("./assets/img/survey-form-background.jpeg");
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%; */
 }
 @media only screen and (max-width: 3072px) and (orientation: landscape) {
   .main-content {
@@ -60,7 +47,7 @@ body {
 }
 @media only screen and (min-width: 3072px) and (orientation: landscape) {
   .main-content {
-    /* height: 100vh; */
+    height: 100vh;
   }
 }
 
