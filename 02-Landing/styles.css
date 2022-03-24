@@ -28,6 +28,9 @@ body {
 }
 
 .main-content {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: auto;
   display: flex;
@@ -46,11 +49,6 @@ body {
 @media only screen and (max-width: 3072px) and (orientation: landscape) {
   .section-layer {
     display: flex;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
     background-color: var(--color-medium-violet);
   }
 }
