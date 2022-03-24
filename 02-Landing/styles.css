@@ -23,7 +23,7 @@ body {
   font-size: 1.7rem;
   font-family: var(--fuente-poppins);
   line-height: 1.5;
-  background-color: rgb(49, 6, 117);
+  background-color: var(--color-strong-violet);
 }
 
 .main-content {
