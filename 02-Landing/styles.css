@@ -24,7 +24,7 @@ body {
   font-size: 1.7rem;
   font-family: var(--fuente-poppins);
   line-height: 1.5;
-  /* background-color: var(--color-medium-violet); */
+  background-color: var(--color-medium-violet);
 }
 
 .main-content {
@@ -38,16 +38,6 @@ body {
   background: linear-gradient(90deg,
   var(--color-strong-violet),
   var(--color-soft-violet));
-  /* background-image: linear-gradient(
-      90deg,
-      var(--color-strong-violet),
-      var(--color-soft-violet)
-    ),
-    url("./assets/img/survey-form-background.jpeg"); */
-  /* background-attachment: fixed; */
-  /* background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%; */
 }
 @media only screen and (min-width: 240px) and (min-height: 320px) {
   .container-layer {
