@@ -35,24 +35,30 @@ body {
   height: auto;
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(
+  background: linear-gradient(90deg,
+  var(--color-strong-violet),
+  var(--color-soft-violet));
+  /* background-image: linear-gradient(
       90deg,
       var(--color-strong-violet),
       var(--color-soft-violet)
     ),
-    url("./assets/img/survey-form-background.jpeg");
-  background-attachment: fixed;
-  background-size: cover;
+    url("./assets/img/survey-form-background.jpeg"); */
+  /* background-attachment: fixed; */
+  /* background-size: cover;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: 50% 50%; */
 }
 @media only screen and (max-width: 3072px) and (orientation: landscape) {
-  .section-layer {
-    background-attachment: scroll;
+  .container-layer {
     display: flex;
     width: 100%;
-    height: 110vh;
-    background-color: var(--color-medium-violet);
+    height: 200vh;
+    background-image: url("./assets/img/survey-form-background.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
   }
 }
 @media only screen and (min-width: 3072px) and (orientation: landscape) {
