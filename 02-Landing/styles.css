@@ -48,6 +48,7 @@ body {
 }
 @media only screen and (max-width: 3072px) and (orientation: landscape) {
   .section-layer {
+    background-attachment: scroll;
     display: flex;
     width: 100%;
     height: 110vh;
