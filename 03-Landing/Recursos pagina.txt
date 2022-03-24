@@ -1,0 +1,2 @@
+https://cdn.freecodecamp.org/testable-projects-fcc/images
+/product-landing-page-logo.png

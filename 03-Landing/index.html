@@ -8,23 +8,25 @@
     <title>Third Landing</title>
   </head>
   <body>
-    
     <nav class="navbar">
       <div class="container-logo">
-        <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="Logo image">
+        <img
+          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+          alt="Logo image"
+        />
       </div>
 
       <div class="container-menu">
-        <a href="" class="options">
+        <a href="#" class="options">
           Home
         </a>
-        <a href="" class="options">
+        <a href="#materials" class="options">
           Features
         </a>
-        <a href="" class="options">
+        <a href="#playing-trombone" class="options">
           How It Works
         </a>
-        <a href="" class="options">
+        <a href="#pricing" class="options">
           Pricing
         </a>
       </div>
@@ -35,16 +37,141 @@
         <h1>Handcrafted, home-made masterpieces</h1>
       </div>
 
-      <div class="header-elements container-input-email">
-        <input type="email" name="enter-email" id="">
-      </div>
+      <form id="form">
+        <div class="header-elements container-input-email">
+          <input
+            type="email"
+            name="enter-email"
+            id=""
+            placeholder="Enter your email address"
+            required
+          />
+        </div>
 
-      <div class="header-elements container-btn">
-        <a href="#">
-          GET STARTED
-        </a>
-      </div>
+        <div class="header-elements container-btn">
+          <input type="submit" value="GET STARTED" />
+        </div>
+      </form>
     </header>
 
+    <main id="materials">
+      <div class="container-img container-fire">
+        <img src="./assets/img/fire.png" alt="" />
+      </div>
+
+      <div class="container-info container-info-premium-materials">
+        <h2>Premium Materials</h2>
+        <p>
+          Our trombones use the shiniest brass which is sourced locally. This
+          will increase the longevity of your purchase.
+        </p>
+      </div>
+
+      <div class="container-img container-truck">
+        <img src="./assets/img/truck.png" alt="" />
+      </div>
+      <div class="container-info transport-info-container">
+        <h2>Fast Shipping</h2>
+        <p>
+          We make sure you recieve your trombone as soon as we have finished
+          making it. We also provide free returns if you are not satisfied.
+        </p>
+      </div>
+
+      <div class="container-img container-batery">
+        <img src="./assets/img/batery.png" alt="" />
+      </div>
+      <div class="container-info batery-info-container">
+        <h2>Quality Assurance</h2>
+        <p>
+          For every purchase you make, we will ensure there are no damages or
+          faults and we will check and test the pitch of your instrument.
+        </p>
+      </div>
+    </main>
+
+    <section id="playing-trombone" class="video-section">
+      <iframe
+        src="https://www.youtube.com/embed/y8Yv4pnO7qc"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      >
+      </iframe>
+    </section>
+
+    <section id="pricing" class="card-section">
+      <div class="cards tenor-Trombone-card">
+        <div class="title-card-container">
+          <h3 class="card-title">Tenor Trombone</h3>
+        </div>
+
+        <h3 class="card-price">$600</h3>
+
+        <ul class="container-list">
+          <li class="card-text card-text-one">Lorem ipsum.</li>
+          <li class="card-text card-text-two">Lorem ipsum.</li>
+          <li class="card-text card-text-three">Lorem ipsum lodor.</li>
+          <li class="card-text card-text-four">Lorem ipsum.</li>
+        </ul>
+        
+        <a class="a-btn" href="#">SELECT</a>
+      </div>
+
+      <div class="cards bass-Trombone-card">
+        <div class="title-card-container">
+          <h3 class="card-title">Bass Trombone</h3>
+        </div>
+
+        <h3 class="card-price">$900</h3>
+
+        <ul class="container-list">
+          <li class="card-text card-text-one">Lorem ipsum.</li>
+          <li class="card-text card-text-two">Lorem ipsum.</li>
+          <li class="card-text card-text-three">Lorem ipsum lodor.</li>
+          <li class="card-text card-text-four">Lorem ipsum.</li>
+        </ul>
+
+        <a class="a-btn" href="#">SELECT</a>
+      </div>
+
+      <div class="cards valve-Trombone-card">
+        <div class="title-card-container">
+          <h3 class="card-title">Valve Trombone</h3>
+        </div>
+
+        <h3 class="card-price">$1200</h3>
+
+        <ul class="container-list">
+          <li class="card-text card-text-one">Plays similar to a Trumpet</li>
+          <li class="card-text card-text-two">Great for Jazz Bands</li>
+          <li class="card-text card-text-three">Lorem ipsum lodor.</li>
+          <li class="card-text card-text-four">Lorem ipsum.</li>
+        </ul>
+
+        <a class="a-btn" href="#">SELECT</a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container-options">
+        <div class="privacy">
+          <a href="">Privacy</a>
+        </div>
+  
+        <div class="terms">
+          <a href="">Terms</a>
+        </div>
+  
+        <div class="contact">
+          <a href="">Contact</a>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>Copyright 2016, Original Trombones</p>
+      </div>
+    </footer>
   </body>
 </html>
