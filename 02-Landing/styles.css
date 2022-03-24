@@ -23,7 +23,7 @@ body {
   font-size: 1.7rem;
   font-family: var(--fuente-poppins);
   line-height: 1.5;
-  background-color: var(--color-strong-violet);
+  background-color: var(--color-soft-violet);
 }
 
 .main-content {
@@ -31,7 +31,6 @@ body {
   height: auto;
   display: flex;
   flex-direction: column;
-  background-color: var(--color-strong-violet);
   background-image: linear-gradient(
       90deg,
       var(--color-strong-violet),
@@ -43,11 +42,6 @@ body {
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
-/* @media only screen and (max-width: 3072px) and (orientation: landscape) {
-  .main-content {
-    height: auto;
-  }
-} */
 @media only screen and (min-width: 3072px) and (orientation: landscape) {
   .main-content {
     height: 100vh;
