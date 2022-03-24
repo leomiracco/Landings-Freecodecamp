@@ -16,7 +16,6 @@
 html {
   font-size: 62.5%; /* 1REM = 10px */
   /* scroll-behavior: smooth; */
-  overflow: hidden;
 }
 
 body {
@@ -24,7 +23,7 @@ body {
   font-size: 1.7rem;
   font-family: var(--fuente-poppins);
   line-height: 1.5;
-  overflow-y: scroll;
+  background-color: rgb(49, 6, 117);
 }
 
 .main-content {
