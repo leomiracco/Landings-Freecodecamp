@@ -11,10 +11,10 @@
 
 <body>
 
-  <div class="main-container">
+  <div class="main-container" id="main">
     <header class="header">
       <div class="container-title-h1">
-        <h1>Dr. Norman Borlaug</h1>
+        <h1 id="title">Dr. Norman Borlaug</h1>
       </div>
       <div class="container-title-h4">
         <h4>The man who saved a billion lives</h4>
@@ -22,20 +22,21 @@
     </header>
 
     <main>
-      <div class="container-img">
-          <img loading="lazy" decoding="async" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg" alt="Picture of Dr. Norman Borlaug, trains biologists in Mexico on how to increase wheat yields." lazyalt="image"/>
-      </div>
-      <div>
-        <h4 class="image-caption-text">
-          Dr. Norman Borlaug, third from the left, trains biologists in Mexico
-          on how to increase wheat yields - part of his life-long war on hunger.
-        </h4>
-      </div>
+      <figure class="container-img" id="img-div">
+          <img id="image" loading="lazy" decoding="async" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg" alt="Picture of Dr. Norman Borlaug, trains biologists in Mexico on how to increase wheat yields." lazyalt="image"/>
+
+          <div>
+            <h4 id="img-caption" class="image-caption-text">
+              Dr. Norman Borlaug, third from the left, trains biologists in Mexico
+              on how to increase wheat yields - part of his life-long war on hunger.
+            </h4>
+          </div>
+      </figure>
     </main>
 
     <section class="section-for-years">
       <div class="container-title-h3">
-        <h3>Here's a time line of Dr. Borlaug's life:</h3>
+        <h3 id="tribute-info"><a id="tribute-link" target="_blank" href="https://www.worldfoodprize.org/index.cfm/87428/39975/tributes_to_norman_borlaug_from_around_the_world">Here's a time line of Dr. Borlaug's life:</a></h3>
       </div>
       <div class="container-list">
         <ul>
@@ -125,10 +126,12 @@
     <footer>
       <h3>
         If you have time, you should read more about this incredible human being
-        on his <a href="https://en.wikipedia.org/wiki/Norman_Borlaug" target="_alt">Wikipedia entry</a>.
+        on his <a href="https://en.wikipedia.org/wiki/Norman_Borlaug" id="tribute-link" target="_alt">Wikipedia entry</a>.
       </h3>
     </footer>
   </div>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 
 </html>

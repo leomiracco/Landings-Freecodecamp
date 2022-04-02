@@ -51,11 +51,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-@media only screen and (min-width: 3072px) and (orientation: landscape) {
-  .main-content {
-    height: 100vh;
-  }
-}
 
 .freeCodeCamp-header {
   display: flex;
