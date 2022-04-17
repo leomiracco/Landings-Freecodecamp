@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+
+}
+
+html{
+  font-size: 62.5%; /* 1rem = 10px*/
+  scroll-behavior: smooth;
+}
+
+body{
+
+}
+
+/***************** Global Variables *****************/
+
+
+/***************** Styles *****************/
+#navbar{
+  background-color: burlywood;
+  display: flex;
+  justify-content: space-between;
+  height: 7rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#welcome-section{
+  height: 100vh;
+  margin-top: 100rem;
+}
+/************* 800x600 **************/
+@media only screen and (min-width: 800px) and (min-height: 600px){
+  /* .nav-bar {
+    
+  } */
+}
